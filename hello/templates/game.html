@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<p> This is the charty party game named: {{ game.name }} </p>
+
+<p> The graph is: {{ game.graph }} </p>
+
+<input type="text" value="input your card"></input>
+<button> Here is a button to interact with this shared tabletop! </button>
+ 
+{% endblock %}

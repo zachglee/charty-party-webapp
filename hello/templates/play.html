@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<p> It's time to Charty Party! Your game name is: {{ state }} </p>
+<p> Instead of the /play url, go to /game/{{ state }}</p>
+ 
+{% endblock %}
